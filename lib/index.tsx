@@ -3,5 +3,11 @@ import React from 'react'
 import Icon from './icon'
 
 ReactDOM.render( <div>
-  <Icon name="wechat"/>
-</div> , document.body)
+  <Icon name="amazon"/>
+  <Icon name="apple"/>
+  <Icon name="facebook"/>
+  <Icon name="google"/>
+  <Icon name="microsoft"/>
+  <Icon name="twitter"/>
+
+</div> , document.querySelector("#root"))
