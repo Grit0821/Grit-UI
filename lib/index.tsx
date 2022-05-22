@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './icon'
 
 ReactDOM.render( <div>
-  <Icon name="amazon"/>
+  <Icon name="amazon" onClick={() => console.log('an')}/>
   <Icon name="apple"/>
   <Icon name="facebook"/>
   <Icon name="google"/>
