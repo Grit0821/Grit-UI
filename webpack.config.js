@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    "grit-ui": './lib/index.tsx' // grit-ui 表示打包输出 chunkName
+    "index": './lib/index.tsx' // key 表示打包输出 chunkName
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],

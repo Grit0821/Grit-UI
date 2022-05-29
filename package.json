@@ -1,6 +1,9 @@
 {
-  "name": "grit-ui",
-  "version": "1.0.0",
+  "name": "grit-ui888",
+  "version": "0.0.2",
+  "files": [
+    "/dist/**/*"
+  ],
   "description": "",
   "main": "dist/lib/grit-ui",
   "types": "dist/lib/index",
