@@ -70,4 +70,4 @@ workflows:
             - build
           filters:
             branches:
-              ignore: /deploy/ 
+              only: /deploy/ 
