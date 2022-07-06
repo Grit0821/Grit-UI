@@ -1,0 +1,42 @@
+.gui-dialog {
+  // 这个类名防止业务样式覆盖掉组件库样式
+  position: fixed;
+  background: white;
+  min-width: 20em;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &-mask {
+    position: fixed;
+    z-index: 1;
+    inset: 0;
+    background-color: fade-out(black, 0.5);
+  }
+
+  &-header {
+    font-size: 22px;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  &-main {
+    padding: 8px 16px;
+    min-height: 6em;
+  }
+
+  &-footer {
+    padding: 8px 16px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+  }
+}

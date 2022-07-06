@@ -1,0 +1,21 @@
+[class^=gui-] {
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+button{ // todo 暂时写一个样式，后期用 Button 组件之后就可以废弃
+  box-sizing: border-box;
+  height: 32px;
+  margin: 0 4px;
+  border-radius: 4px;
+  &:first-child{
+    margin-left: 0;
+  }
+  &:last-child{
+    margin-right: 0;
+  }
+}
