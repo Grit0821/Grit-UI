@@ -1,5 +1,6 @@
+import { Icon } from "../index";
 import React from "react";
-import Icon from "./icon";
+
 
 const IconExample = () => <>
   <Icon name="apple" />
